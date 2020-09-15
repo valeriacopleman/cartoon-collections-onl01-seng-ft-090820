@@ -1,3 +1,4 @@
+#list of name with number order
 def roll_call_dwarves(array)
 counter = 1 
   array.each do |names|
@@ -5,6 +6,7 @@ counter = 1
   counter +=1 
 end 
 end
+
 
 def summon_captain_planet(array)
   array.collect {|i| i.capitalize + "!"} 
