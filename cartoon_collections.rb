@@ -7,10 +7,11 @@ counter = 1
 end 
 end
 
-
+#capitalize first letter and add exclamation
 def summon_captain_planet(array)
   array.collect {|i| i.capitalize + "!"} 
 end
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
