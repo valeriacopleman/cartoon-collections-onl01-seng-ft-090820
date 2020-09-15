@@ -23,5 +23,5 @@ def find_the_cheese(array)
   i = 0 
   cheese_types.find{|i|}
   i +=1 
-end 
+
 end
