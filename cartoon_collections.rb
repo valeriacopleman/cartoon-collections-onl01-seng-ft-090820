@@ -12,10 +12,9 @@ def summon_captain_planet(array)
   array.collect {|i| i.capitalize + "!"} 
 end
 
-
+#returns T if any elements longer than 4 char. or F if all are less than 4 char.
 def long_planeteer_calls(array)
   array.any? {|x| x.length > 4}
-
 end
 
 def find_the_cheese# code an argument here
